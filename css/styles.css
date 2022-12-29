@@ -153,6 +153,17 @@ ul {
 }
 
 /* section and section team */
+.logo-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 112px;
+  width: 264px;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  background-color: #F4F4FD;
+
+}
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
