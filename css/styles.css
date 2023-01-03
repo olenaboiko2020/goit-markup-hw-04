@@ -454,17 +454,19 @@ ul {
 .example-item {
   max-width: 360px;
   border: 1px solid #e7e9fc;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+
   width: calc((100%-48px) / 3);
 }
-.example-item:hover,
-.example-item:focus {
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+
 .card {
   display: block;
   text-decoration: none;
   max-width: 360px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.card:hover,
+.card:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .card-text {
   width: 360px;
@@ -473,9 +475,7 @@ ul {
   padding-bottom: 32px;
   text-align: left;
 }
-.card-text:nth-child(5) {
-  border: #4d5ae5;
-}
+
 .example-title {
   font-weight: 500;
   font-size: 20px;
